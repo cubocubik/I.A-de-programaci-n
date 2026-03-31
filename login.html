@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+body {
+    background: linear-gradient(135deg, #5865F2, #1e1f22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.card {
+    background: #1e1f22;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #57F287;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h2>Login</h2>
+    <form method="POST">
+        <input name="username" placeholder="Usuario">
+        <input name="password" type="password" placeholder="Contraseña">
+        <button>Entrar</button>
+    </form>
+    <a href="/register">Registrarse</a>
+</div>
+
+</body>
+</html>
