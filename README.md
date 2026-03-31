@@ -11,6 +11,7 @@ Cosas secretas:
 -Hay un par de comandos que voy a poner en secreto y no no pienso devir a la gente, es a tu criterio si tu lo quieres decifrar.
 
 Caracteristicas:
+
 -Puede responderte a diferentes lenguajes de programaciòn(solo 4, ire agregando mas en el furuto, o ahora)
 
 -Puede iniciar secion o registrarse si no tiene una cuenta.
