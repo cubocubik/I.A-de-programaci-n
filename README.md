@@ -12,5 +12,7 @@ Cosas secretas:
 
 Caracteristicas:
 -Puede responderte a diferentes lenguajes de programaciòn(solo 4, ire agregando mas en el furuto, o ahora)
+
 -Puede iniciar secion o registrarse si no tiene una cuenta.
+
 -Tambien tiene un diseño bastante estètico, pero lo voy a mejorar en algunos dìas
