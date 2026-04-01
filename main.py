@@ -113,10 +113,12 @@ def chat():
         respuesta = "HTML crea la estructura de una página web."
     elif "css" in texto:
         respuesta = "CSS da estilo."
+    elif "python" in texto:
+        respuesta = "Python es un lenguaje de programaciòn principal para los principiantes, perfecto para los principiantes."
     elif "javascript" in texto:
         respuesta = "JavaScript hace la web interactiva."
     elif "primer codigo" in texto:
-        respuesta = "Tu primer còdigo puede ser:" \
+        respuesta = "Tu primer còdigo puede ser: " \
         "print('Hello world')"
     elif "error" in texto:
         respuesta = "Los errores son respuestas que te da la consola cuando algo esta mal o no cuadra en el codigo"
@@ -124,9 +126,16 @@ def chat():
         respuesta = "Unity si bien no es un lenguaje de programaciòn, es una plataforma en donde puedes crear juegos son c#"
     elif "sistema operativo para programaciòn" in texto:
         respuesta = "El sistema operativo va a depender mucho de tu gusto, si tu quieres un sistema libre, usa linux, si quieres uno facil de manejar y para principiantes, usa windows" 
-    elif "I.A" in texto:
+    elif "ia" in texto:
         respuesta = "Una I.A es un bot que te puede decir cualquier duda que tengas o en este caso, una ayuda en la programaciòn"   
-    
+    elif "SQL" in texto:
+        respuesta = "Es un lenguaje estándar para la gestión y manejo de bases de datos."
+    elif "Typescript" in texto:
+        respuesta = "Es una versión mejorada de JavaScript con tipado estático."
+    elif "Java" in texto:
+        respuesta = "Java es un lenguaje separado de javascript, es principalmente utilizado para aplicaciones empresariales, sistemas Android y videojuegos"
+    elif "Swift" in texto:
+        respuesta = "Es principalmente utilizado para el desarrollo de aplicaciones nativas en iOS (Apple)."
     elif "hola" in texto:
         respuesta = f"Hola {current_user.username} 👋"
     else:
