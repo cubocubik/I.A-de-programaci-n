@@ -120,7 +120,7 @@ def chat():
         "print('Hello world')"
     elif "error" in texto:
         respuesta = "Los errores son respuestas que te da la consola cuando algo esta mal o no cuadra en el codigo"
-    elif "Unity" in texto:
+    elif "unity" in texto:
         respuesta = "Unity si bien no es un lenguaje de programaciòn, es una plataforma en donde puedes crear juegos son c#"
     elif "sistema operativo para programaciòn" in texto:
         respuesta = "El sistema operativo va a depender mucho de tu gusto, si tu quieres un sistema libre, usa linux, si quieres uno facil de manejar y para principiantes, usa windows" 
